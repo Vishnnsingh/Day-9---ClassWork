@@ -1,0 +1,101 @@
+.ex_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* width: 90%;
+    margin: auto; */
+    padding: 1rem;
+
+}
+
+.show_header{
+    color: white;
+}
+
+.show_con{
+    width: 77%;
+    margin: auto;
+   padding:1rem 0 ;
+   display: flex;
+    align-items:center ;
+   gap: 1rem;
+   
+
+}
+
+.back{
+    color: white;
+    background-color: rgb(56, 192, 169);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.button{
+    font-size: 1.2rem;
+}
+
+
+
+.part{
+    text-transform: capitalize;
+    color: rgb(57, 173, 160);
+}
+.pagination{
+    width: 40%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid white; */
+    gap: 0.5rem;
+}
+
+.pagination span{
+    width: 50px;
+    height: 50px;
+cursor: pointer;
+    border: 1px solid white;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+   
+}
+
+.pagination span:hover{
+   background-color: rgb(39, 196, 154);
+   font-weight: bold;
+   color: white;
+}
+
+.pagination a{
+    text-decoration: none;
+
+}
+
+
+.ex_container{
+    margin: 1rem;
+}
+
+.pagination span:nth-child(1),
+
+.pagination span:nth-child(7){
+    width: 75px;
+    
+}
+
+.pagination span:nth-child(1),
+
+.pagination span:nth-child(7){
+    width: 75px;
+    
+}

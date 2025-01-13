@@ -1,0 +1,40 @@
+.parts_box{
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-items: center;
+    background-color: rgba(37, 147, 132, 0.2);
+    border: 1px solid rgb(63, 187, 156);
+    color: white;
+    box-shadow: 0 0 10px rgb(30, 215, 145);
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.parts_box:hover{
+    background-color: rgb(38, 154, 148);
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 0 20px rgb(18, 171, 151);
+}
+
+.parts_con{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    /* background-color: red; */
+}
+
+.parts_name{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* text-shadow: 0 0 5px white; */
+}
+
